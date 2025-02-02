@@ -134,29 +134,26 @@ p {
 
 /*--  section titel  --*/
 
-/*.titel {
-  display: flex;
-  justify-items: center;
+.title-box {
+  padding: 188px 0;
+  flex-direction: column;
   align-items: center;
-}*/
+  height: 600px;
+  max-width: 1440px;
+}
 
-.titel-box {
+.title-box {
   display: flex;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   justify-items: center;
-  padding: 188px 0;
-  flex-direction: column;
-  align-items: center;
-  height: 600px;
-  max-width: 1440px;
 }
 
 .page-title {
