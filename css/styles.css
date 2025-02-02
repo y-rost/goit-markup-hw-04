@@ -279,9 +279,6 @@ p {
 .team-list {
   display: flex;
   gap: 24px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background-color: #fff;
 }
 
 .team-item {
@@ -290,19 +287,19 @@ p {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   justify-content: center;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #fff;
 }
 
-.team-mark,
-.team-tom,
-.team-camila,
-.team-daniel {
+.team-workers {
   margin: 32px 0;
 }
 
 .team-position {
   display: inline-flex;
   flex-direction: column;
-  text-align: center;
+  /*text-align: center;*/
   padding-bottom: 8px;
 }
 
