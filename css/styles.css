@@ -248,8 +248,8 @@ p {
 .team-networks {
   display: flex;
   gap: 24px;
-  flex-shrink: 0;
-  /*align-self: flex-end;*/
+  align-items: center;
+  justify-content: center;
 }
 
 .team-networks .team-networks-item {
@@ -293,7 +293,10 @@ p {
 }
 
 .team-workers {
+  display: flex;
+  flex-direction: column;
   margin: 32px 0;
+  align-items: center;
 }
 
 .team-position {
@@ -460,13 +463,8 @@ p {
 
 .footer-networks {
   gap: 24px;
-  /*flex-shrink: 0;*/
   align-items: center;
   justify-content: center;
-
-  /*align-self: flex-end;
-  justify-content: center;
-  align-items: center;*/
 }
 
 .footer-networks .footer-icon {
