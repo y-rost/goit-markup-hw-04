@@ -253,7 +253,7 @@ p {
 
 .team-networks {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -265,14 +265,18 @@ p {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-networks-link:hover {
+.team-networks-link:hover,
+.team-networks-link:focus {
   background-color: #404bbf;
 }
 
 .team-networks .icon-networks {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .team-block-titel {
