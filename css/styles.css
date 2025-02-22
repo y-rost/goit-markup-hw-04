@@ -304,11 +304,15 @@ p {
   align-items: center;
 }
 
-.team-position {
+/*.team-position {
   display: inline-flex;
   flex-direction: column;
-  /*text-align: center;*/
+  --- text-align: center; ---
   padding-bottom: 8px;
+}*/
+
+.team-text {
+  margin-bottom: 8px;
 }
 
 .page-button:hover,
