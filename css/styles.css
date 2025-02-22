@@ -397,8 +397,7 @@ p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
-  transition-property: transform;
-  transition-property: box-shadow;
+  transition-property: transform, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -493,12 +492,13 @@ p {
 }
 
 .footer-networks {
-  gap: 24px;
+  display: flex;
+  column-gap: 24px;
   align-items: center;
   justify-content: center;
 }
 
-.footer-networks .footer-icon {
+.footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -508,7 +508,7 @@ p {
   background-color: #4d5ae5;
 }
 
-.footer-networks .footer-icon:hover {
+.footer-link:hover {
   background-color: #31d0aa;
 }
 
