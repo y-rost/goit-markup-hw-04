@@ -451,10 +451,12 @@ p {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
+  align-items: baseline;
 }
 
 .footer-container {
   margin-left: 156px;
+  margin-right: 120px;
 }
 
 .footer-text {
@@ -484,9 +486,9 @@ p {
   margin-bottom: 16px;
 }
 
-.container-networks {
+/*.container-networks {
   margin-left: 120px;
-}
+}*/
 
 .footer-networks {
   display: flex;
@@ -494,15 +496,16 @@ p {
 
 .footer-text-networks {
   display: inline-flex;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
 }
 
 .footer-networks {
   display: flex;
-  column-gap: 24px;
+  gap: 16px;
   align-items: center;
   justify-content: center;
 }
@@ -517,10 +520,11 @@ p {
   background-color: #4d5ae5;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
 .footer-icon .icon-networks {
-  fill: #fff;
+  fill: #f4f4fd;
 }
