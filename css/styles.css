@@ -390,7 +390,7 @@ p {
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.portfolio-overlay-item .portfolio-overlay {
   padding: 8px;
   background-color: #4d5ae5;
   color: #fff;
@@ -405,7 +405,7 @@ p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
-  transition-property: transform, box-shadow;
+  transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -417,7 +417,14 @@ p {
   /*transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
-.portfolio-position:hover {
+.portfolio-overlay-item {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-overlay-item:hover,
+.portfolio-overlay-item:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -455,8 +462,7 @@ p {
 }
 
 .footer-container {
-  margin-left: 156px;
-  margin-right: 120px;
+  margin: 0 120px 0 156px;
 }
 
 .footer-text {
@@ -518,6 +524,9 @@ p {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
