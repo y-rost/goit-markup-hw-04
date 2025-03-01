@@ -437,13 +437,17 @@ p {
 
 /*--  section footer  --*/
 
+.footer-box {
+  padding: 100px 0;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  margin: 0 auto;
+}
+
 .page-footer {
   display: flex;
-  padding: 100px 0;
   align-items: baseline;
-  background-color: #2e2f42;
-  /*height: 312px;
-  max-width: 1440px;*/
 }
 
 .container .footer-container {
@@ -476,10 +480,6 @@ p {
 .footer-logo {
   margin-bottom: 16px;
 }
-
-/*.container-networks {
-  margin-left: 120px;
-}*/
 
 .footer-networks {
   display: flex;
